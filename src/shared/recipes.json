@@ -1,0 +1,575 @@
+{
+  "_comment": "DSP Recipe database. Times in seconds, rates in items/cycle.",
+  "recipes": {
+    "1": {
+      "name": "Iron Ingot",
+      "id": 1,
+      "outputs": [{"item_id": 1101, "count": 1}],
+      "inputs": [{"item_id": 1001, "count": 1}],
+      "time": 1.0,
+      "building": "smelter"
+    },
+    "2": {
+      "name": "Copper Ingot",
+      "id": 2,
+      "outputs": [{"item_id": 1102, "count": 1}],
+      "inputs": [{"item_id": 1002, "count": 1}],
+      "time": 1.0,
+      "building": "smelter"
+    },
+    "3": {
+      "name": "Stone Brick",
+      "id": 3,
+      "outputs": [{"item_id": 1105, "count": 1}],
+      "inputs": [{"item_id": 1003, "count": 1}],
+      "time": 1.0,
+      "building": "smelter"
+    },
+    "4": {
+      "name": "Energetic Graphite",
+      "id": 4,
+      "outputs": [{"item_id": 1106, "count": 1}],
+      "inputs": [{"item_id": 1004, "count": 2}],
+      "time": 2.0,
+      "building": "smelter"
+    },
+    "5": {
+      "name": "High-Purity Silicon",
+      "id": 5,
+      "outputs": [{"item_id": 1103, "count": 1}],
+      "inputs": [{"item_id": 1005, "count": 2}],
+      "time": 2.0,
+      "building": "smelter"
+    },
+    "6": {
+      "name": "Titanium Ingot",
+      "id": 6,
+      "outputs": [{"item_id": 1104, "count": 1}],
+      "inputs": [{"item_id": 1006, "count": 2}],
+      "time": 2.0,
+      "building": "smelter"
+    },
+    "7": {
+      "name": "Steel",
+      "id": 7,
+      "outputs": [{"item_id": 1107, "count": 1}],
+      "inputs": [{"item_id": 1101, "count": 3}],
+      "time": 3.0,
+      "building": "smelter"
+    },
+    "8": {
+      "name": "Titanium Alloy",
+      "id": 8,
+      "outputs": [{"item_id": 1108, "count": 4}],
+      "inputs": [
+        {"item_id": 1104, "count": 4},
+        {"item_id": 1107, "count": 4},
+        {"item_id": 1205, "count": 8}
+      ],
+      "time": 12.0,
+      "building": "smelter"
+    },
+    "9": {
+      "name": "Glass",
+      "id": 9,
+      "outputs": [{"item_id": 1109, "count": 1}],
+      "inputs": [{"item_id": 1003, "count": 2}],
+      "time": 2.0,
+      "building": "smelter"
+    },
+    "10": {
+      "name": "Titanium Glass",
+      "id": 10,
+      "outputs": [{"item_id": 1110, "count": 2}],
+      "inputs": [
+        {"item_id": 1109, "count": 2},
+        {"item_id": 1104, "count": 2},
+        {"item_id": 1011, "count": 2}
+      ],
+      "time": 5.0,
+      "building": "assembler"
+    },
+    "11": {
+      "name": "Prism",
+      "id": 11,
+      "outputs": [{"item_id": 1111, "count": 2}],
+      "inputs": [{"item_id": 1109, "count": 3}],
+      "time": 2.0,
+      "building": "assembler"
+    },
+    "12": {
+      "name": "Diamond",
+      "id": 12,
+      "outputs": [{"item_id": 1112, "count": 1}],
+      "inputs": [{"item_id": 1106, "count": 1}],
+      "time": 2.0,
+      "building": "smelter"
+    },
+    "13": {
+      "name": "Crystal Silicon",
+      "id": 13,
+      "outputs": [{"item_id": 1113, "count": 1}],
+      "inputs": [{"item_id": 1103, "count": 1}],
+      "time": 2.0,
+      "building": "smelter"
+    },
+    "14": {
+      "name": "Magnet",
+      "id": 14,
+      "outputs": [{"item_id": 1114, "count": 1}],
+      "inputs": [{"item_id": 1001, "count": 1}],
+      "time": 1.5,
+      "building": "smelter"
+    },
+    "15": {
+      "name": "Magnetic Coil",
+      "id": 15,
+      "outputs": [{"item_id": 1115, "count": 2}],
+      "inputs": [
+        {"item_id": 1114, "count": 2},
+        {"item_id": 1102, "count": 1}
+      ],
+      "time": 1.0,
+      "building": "assembler"
+    },
+    "16": {
+      "name": "Electric Motor",
+      "id": 16,
+      "outputs": [{"item_id": 1116, "count": 1}],
+      "inputs": [
+        {"item_id": 1101, "count": 2},
+        {"item_id": 1301, "count": 1},
+        {"item_id": 1115, "count": 1}
+      ],
+      "time": 2.0,
+      "building": "assembler"
+    },
+    "17": {
+      "name": "Electromagnetic Turbine",
+      "id": 17,
+      "outputs": [{"item_id": 1117, "count": 1}],
+      "inputs": [
+        {"item_id": 1116, "count": 2},
+        {"item_id": 1115, "count": 2}
+      ],
+      "time": 2.0,
+      "building": "assembler"
+    },
+    "18": {
+      "name": "Super-Magnetic Ring",
+      "id": 18,
+      "outputs": [{"item_id": 1118, "count": 1}],
+      "inputs": [
+        {"item_id": 1117, "count": 2},
+        {"item_id": 1114, "count": 3},
+        {"item_id": 1106, "count": 1}
+      ],
+      "time": 3.0,
+      "building": "assembler"
+    },
+    "19": {
+      "name": "Particle Container",
+      "id": 19,
+      "outputs": [{"item_id": 1119, "count": 1}],
+      "inputs": [
+        {"item_id": 1117, "count": 2},
+        {"item_id": 1102, "count": 2},
+        {"item_id": 1128, "count": 2}
+      ],
+      "time": 4.0,
+      "building": "assembler"
+    },
+    "20": {
+      "name": "Gear",
+      "id": 20,
+      "outputs": [{"item_id": 1301, "count": 1}],
+      "inputs": [{"item_id": 1101, "count": 1}],
+      "time": 1.0,
+      "building": "assembler"
+    },
+    "21": {
+      "name": "Plasma Exciter",
+      "id": 21,
+      "outputs": [{"item_id": 1302, "count": 1}],
+      "inputs": [
+        {"item_id": 1115, "count": 4},
+        {"item_id": 1111, "count": 2}
+      ],
+      "time": 2.0,
+      "building": "assembler"
+    },
+    "22": {
+      "name": "Photon Combiner",
+      "id": 22,
+      "outputs": [{"item_id": 1303, "count": 1}],
+      "inputs": [
+        {"item_id": 1111, "count": 2},
+        {"item_id": 1121, "count": 1}
+      ],
+      "time": 3.0,
+      "building": "assembler"
+    },
+    "23": {
+      "name": "Circuit Board",
+      "id": 23,
+      "outputs": [{"item_id": 1121, "count": 2}],
+      "inputs": [
+        {"item_id": 1101, "count": 2},
+        {"item_id": 1102, "count": 1}
+      ],
+      "time": 1.0,
+      "building": "assembler"
+    },
+    "24": {
+      "name": "Processor",
+      "id": 24,
+      "outputs": [{"item_id": 1122, "count": 1}],
+      "inputs": [
+        {"item_id": 1121, "count": 2},
+        {"item_id": 1124, "count": 2}
+      ],
+      "time": 3.0,
+      "building": "assembler"
+    },
+    "25": {
+      "name": "Microcrystalline Component",
+      "id": 25,
+      "outputs": [{"item_id": 1124, "count": 1}],
+      "inputs": [
+        {"item_id": 1103, "count": 2},
+        {"item_id": 1102, "count": 1}
+      ],
+      "time": 2.0,
+      "building": "assembler"
+    },
+    "26": {
+      "name": "Quantum Chip",
+      "id": 26,
+      "outputs": [{"item_id": 1123, "count": 1}],
+      "inputs": [
+        {"item_id": 1122, "count": 2},
+        {"item_id": 1302, "count": 2}
+      ],
+      "time": 6.0,
+      "building": "assembler"
+    },
+    "27": {
+      "name": "Graphene",
+      "id": 27,
+      "outputs": [{"item_id": 1128, "count": 2}],
+      "inputs": [
+        {"item_id": 1106, "count": 3},
+        {"item_id": 1205, "count": 1}
+      ],
+      "time": 3.0,
+      "building": "chemical"
+    },
+    "28": {
+      "name": "Carbon Nanotube",
+      "id": 28,
+      "outputs": [{"item_id": 1130, "count": 2}],
+      "inputs": [
+        {"item_id": 1128, "count": 3},
+        {"item_id": 1104, "count": 1}
+      ],
+      "time": 4.0,
+      "building": "chemical"
+    },
+    "29": {
+      "name": "Organic Crystal",
+      "id": 29,
+      "outputs": [{"item_id": 1125, "count": 1}],
+      "inputs": [
+        {"item_id": 1206, "count": 2},
+        {"item_id": 1204, "count": 1},
+        {"item_id": 1011, "count": 1}
+      ],
+      "time": 6.0,
+      "building": "chemical"
+    },
+    "30": {
+      "name": "Titanium Crystal",
+      "id": 30,
+      "outputs": [{"item_id": 1126, "count": 1}],
+      "inputs": [
+        {"item_id": 1125, "count": 1},
+        {"item_id": 1104, "count": 3}
+      ],
+      "time": 4.0,
+      "building": "assembler"
+    },
+    "31": {
+      "name": "Casimir Crystal",
+      "id": 31,
+      "outputs": [{"item_id": 1127, "count": 1}],
+      "inputs": [
+        {"item_id": 1126, "count": 1},
+        {"item_id": 1128, "count": 2},
+        {"item_id": 1013, "count": 12}
+      ],
+      "time": 4.0,
+      "building": "assembler"
+    },
+    "32": {
+      "name": "Plastic",
+      "id": 32,
+      "outputs": [{"item_id": 1206, "count": 1}],
+      "inputs": [
+        {"item_id": 1204, "count": 2},
+        {"item_id": 1106, "count": 1}
+      ],
+      "time": 3.0,
+      "building": "chemical"
+    },
+    "33": {
+      "name": "Sulfuric Acid",
+      "id": 33,
+      "outputs": [{"item_id": 1205, "count": 4}],
+      "inputs": [
+        {"item_id": 1204, "count": 6},
+        {"item_id": 1003, "count": 8},
+        {"item_id": 1011, "count": 4}
+      ],
+      "time": 6.0,
+      "building": "chemical"
+    },
+    "34": {
+      "name": "Refined Oil",
+      "id": 34,
+      "outputs": [
+        {"item_id": 1204, "count": 2},
+        {"item_id": 1013, "count": 1}
+      ],
+      "inputs": [{"item_id": 1012, "count": 2}],
+      "time": 4.0,
+      "building": "refinery"
+    },
+    "35": {
+      "name": "Hydrogen Fuel Rod",
+      "id": 35,
+      "outputs": [{"item_id": 1201, "count": 2}],
+      "inputs": [
+        {"item_id": 1104, "count": 1},
+        {"item_id": 1013, "count": 10}
+      ],
+      "time": 6.0,
+      "building": "assembler"
+    },
+    "36": {
+      "name": "Deuterium Fuel Rod",
+      "id": 36,
+      "outputs": [{"item_id": 1202, "count": 2}],
+      "inputs": [
+        {"item_id": 1104, "count": 1},
+        {"item_id": 1014, "count": 20},
+        {"item_id": 1118, "count": 1}
+      ],
+      "time": 12.0,
+      "building": "assembler"
+    },
+    "37": {
+      "name": "Antimatter Fuel Rod",
+      "id": 37,
+      "outputs": [{"item_id": 1203, "count": 2}],
+      "inputs": [
+        {"item_id": 1015, "count": 12},
+        {"item_id": 1013, "count": 12},
+        {"item_id": 1307, "count": 1},
+        {"item_id": 1104, "count": 1}
+      ],
+      "time": 24.0,
+      "building": "assembler"
+    },
+    "38": {
+      "name": "Strange Matter",
+      "id": 38,
+      "outputs": [{"item_id": 1120, "count": 1}],
+      "inputs": [
+        {"item_id": 1119, "count": 2},
+        {"item_id": 1101, "count": 2},
+        {"item_id": 1014, "count": 10}
+      ],
+      "time": 8.0,
+      "building": "collider"
+    },
+    "39": {
+      "name": "Solar Sail",
+      "id": 39,
+      "outputs": [{"item_id": 1304, "count": 2}],
+      "inputs": [
+        {"item_id": 1128, "count": 1},
+        {"item_id": 1303, "count": 1}
+      ],
+      "time": 4.0,
+      "building": "assembler"
+    },
+    "40": {
+      "name": "Frame Material",
+      "id": 40,
+      "outputs": [{"item_id": 1131, "count": 1}],
+      "inputs": [
+        {"item_id": 1130, "count": 4},
+        {"item_id": 1108, "count": 1},
+        {"item_id": 1103, "count": 1}
+      ],
+      "time": 6.0,
+      "building": "assembler"
+    },
+    "41": {
+      "name": "Dyson Sphere Component",
+      "id": 41,
+      "outputs": [{"item_id": 1132, "count": 1}],
+      "inputs": [
+        {"item_id": 1131, "count": 3},
+        {"item_id": 1304, "count": 3},
+        {"item_id": 1122, "count": 3}
+      ],
+      "time": 8.0,
+      "building": "assembler"
+    },
+    "42": {
+      "name": "Small Carrier Rocket",
+      "id": 42,
+      "outputs": [{"item_id": 1133, "count": 1}],
+      "inputs": [
+        {"item_id": 1132, "count": 2},
+        {"item_id": 1202, "count": 4},
+        {"item_id": 1123, "count": 2}
+      ],
+      "time": 6.0,
+      "building": "assembler"
+    },
+    "43": {
+      "name": "Graviton Lens",
+      "id": 43,
+      "outputs": [{"item_id": 1305, "count": 1}],
+      "inputs": [
+        {"item_id": 1112, "count": 4},
+        {"item_id": 1120, "count": 1}
+      ],
+      "time": 6.0,
+      "building": "assembler"
+    },
+    "44": {
+      "name": "Space Warper",
+      "id": 44,
+      "outputs": [{"item_id": 1306, "count": 1}],
+      "inputs": [{"item_id": 1305, "count": 1}],
+      "time": 10.0,
+      "building": "assembler"
+    },
+    "45": {
+      "name": "Annihilation Constraint Sphere",
+      "id": 45,
+      "outputs": [{"item_id": 1307, "count": 1}],
+      "inputs": [
+        {"item_id": 1119, "count": 1},
+        {"item_id": 1122, "count": 1}
+      ],
+      "time": 20.0,
+      "building": "assembler"
+    },
+    "46": {
+      "name": "Thruster",
+      "id": 46,
+      "outputs": [{"item_id": 1308, "count": 1}],
+      "inputs": [
+        {"item_id": 1107, "count": 2},
+        {"item_id": 1102, "count": 3}
+      ],
+      "time": 4.0,
+      "building": "assembler"
+    },
+    "47": {
+      "name": "Reinforced Thruster",
+      "id": 47,
+      "outputs": [{"item_id": 1309, "count": 1}],
+      "inputs": [
+        {"item_id": 1108, "count": 5},
+        {"item_id": 1117, "count": 5}
+      ],
+      "time": 6.0,
+      "building": "assembler"
+    },
+    "48": {
+      "name": "Logistics Drone",
+      "id": 48,
+      "outputs": [{"item_id": 1310, "count": 1}],
+      "inputs": [
+        {"item_id": 1101, "count": 5},
+        {"item_id": 1122, "count": 2},
+        {"item_id": 1308, "count": 2}
+      ],
+      "time": 4.0,
+      "building": "assembler"
+    },
+    "49": {
+      "name": "Logistics Vessel",
+      "id": 49,
+      "outputs": [{"item_id": 1311, "count": 1}],
+      "inputs": [
+        {"item_id": 1108, "count": 10},
+        {"item_id": 1122, "count": 10},
+        {"item_id": 1309, "count": 2}
+      ],
+      "time": 6.0,
+      "building": "assembler"
+    },
+    "50": {
+      "name": "Foundation",
+      "id": 50,
+      "outputs": [{"item_id": 1312, "count": 1}],
+      "inputs": [
+        {"item_id": 1105, "count": 3},
+        {"item_id": 1107, "count": 1}
+      ],
+      "time": 1.0,
+      "building": "assembler"
+    },
+    "51": {
+      "name": "Proliferator Mk.I",
+      "id": 51,
+      "outputs": [{"item_id": 1134, "count": 1}],
+      "inputs": [{"item_id": 1004, "count": 1}],
+      "time": 0.5,
+      "building": "assembler"
+    },
+    "52": {
+      "name": "Proliferator Mk.II",
+      "id": 52,
+      "outputs": [{"item_id": 1135, "count": 1}],
+      "inputs": [
+        {"item_id": 1134, "count": 2},
+        {"item_id": 1112, "count": 1}
+      ],
+      "time": 1.0,
+      "building": "assembler"
+    },
+    "53": {
+      "name": "Proliferator Mk.III",
+      "id": 53,
+      "outputs": [{"item_id": 1136, "count": 1}],
+      "inputs": [
+        {"item_id": 1135, "count": 2},
+        {"item_id": 1130, "count": 1}
+      ],
+      "time": 2.0,
+      "building": "assembler"
+    }
+  },
+  "building_speeds": {
+    "smelter": {
+      "arc": 1.0,
+      "plane": 2.0
+    },
+    "assembler": {
+      "mk1": 0.75,
+      "mk2": 1.0,
+      "mk3": 1.5
+    },
+    "chemical": 1.0,
+    "refinery": 1.0,
+    "collider": 1.0,
+    "lab": 1.0
+  }
+}
